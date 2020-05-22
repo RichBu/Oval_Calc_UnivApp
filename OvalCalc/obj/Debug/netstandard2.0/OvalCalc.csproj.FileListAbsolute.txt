@@ -12,3 +12,17 @@
 /Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc/obj/Debug/netstandard2.0/ref/OvalCalc.dll
 /Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc/obj/Debug/netstandard2.0/OvalCalc.pdb
 /Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc/obj/Debug/netstandard2.0/OvalCalc.csprojAssemblyReference.cache
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/bin/Debug/netstandard2.0/OvalCalc.deps.json
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/bin/Debug/netstandard2.0/OvalCalc.dll
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/bin/Debug/netstandard2.0/ref/OvalCalc.dll
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/bin/Debug/netstandard2.0/OvalCalc.pdb
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/obj/Debug/netstandard2.0/MoreInfo.xaml.g.cs
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/obj/Debug/netstandard2.0/OvalCalc.AssemblyInfoInputs.cache
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/obj/Debug/netstandard2.0/OvalCalc.AssemblyInfo.cs
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/obj/Debug/netstandard2.0/OvalCalc.csproj.CoreCompileInputs.cache
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/obj/Debug/netstandard2.0/OvalCalc.dll
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/obj/Debug/netstandard2.0/ref/OvalCalc.dll
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/obj/Debug/netstandard2.0/OvalCalc.pdb

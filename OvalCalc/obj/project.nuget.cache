@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H40o1p105TR7Ox2xgEBTRJJTDqQgmwjFEIZrdUt5Wj6UUke1hIOfqlI1OiYQiJvIU/HzzrmdFhHQ2RrL1gopFw==",
+  "dgSpecHash": "MlaczeLU3cO3Zp2H1mWtCawfKHGeyf1nI8ftl6mGXtG2ChYlaUe9RjxLBaqOGIozzbZvAaf+/msbxg2Kpp7ICQ==",
   "success": true,
-  "projectFilePath": "/Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc/OvalCalc.csproj",
+  "projectFilePath": "/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/OvalCalc.csproj",
   "expectedPackageFiles": [
     "/Users/BeyAppsMacServer/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/BeyAppsMacServer/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",

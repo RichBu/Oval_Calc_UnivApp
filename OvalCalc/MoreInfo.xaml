@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OvalCalc.MoreInfo">
+    <ContentPage.Padding>
+    <!-- set platform - specific padding
+                     iOS needs an additional
+                     20px top padding to account for
+                     iPhone status bar -->    
+    <OnPlatform x:TypeArguments ="Thickness"
+                   iOS ="0, 20, 0, 0"
+                   Android ="0, 0, 0, 0"
+                   WinPhone ="0, 0, 0, 0" />
+    </ContentPage.Padding >
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <!-- title bar -->
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Horizontal">
+                    <Button Text="Logo"/>
+                    <Label Text="Oval Calculator" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                    <Button Text="Close" Clicked="Close_Clicked_1" />
+                </StackLayout>
+            </StackLayout>
+
+            <BoxView x:Name="space_01"
+                     HeightRequest="15"/>
+            <Label HorizontalOptions="Center">When machining circles on a cylinder, the circles are machined accurately at the surface of the cylinder. This is because the circumference at this surface is used for the calculation of the Y axis movements.  However, the deeper you machine the pocket, the more distored the circle is.  The circles become ovals.  This app calculates what adjustments you should do to your 3D model to make it appear as a circle.
+                The calculations show you the minimum and maximum that you should make your adjustments.  The output is in actual inches you should use and also the percentage if you are scaling your model.
+            </Label>
+            <Button Text="Picture"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

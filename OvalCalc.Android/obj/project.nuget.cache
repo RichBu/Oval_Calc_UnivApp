@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bSmU9q4xIxZiHBpctlyW5J+4l9C5bJ7CoyFVCBOkHc5fKr1LtNM5b2h6sZ+eXkK23WOxbfy61DR0ixx579ul5g==",
+  "dgSpecHash": "BSYUnX8UFGV2/x+OXPBNcuZMcul4pAeLaOJ54ngLX8dznxK9NA3VVsR6dDOXY4FPszwwKHgXvroFH9R3fDRYFg==",
   "success": true,
-  "projectFilePath": "/Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc.Android/OvalCalc.Android.csproj",
+  "projectFilePath": "/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/OvalCalc.Android.csproj",
   "expectedPackageFiles": [
     "/Users/BeyAppsMacServer/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/BeyAppsMacServer/.nuget/packages/xamarin.android.arch.core.common/1.1.1.3/xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",

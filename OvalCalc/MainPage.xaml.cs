@@ -50,5 +50,17 @@ namespace OvalCalc
             Result.Text = Result.Text + "Y scale min = " + ratioMinOut + " (" + ratioMinPerOut + ")" + "\n";
             Result.Text = Result.Text + "Y scale max = " + ratioMaxOut + " (" + ratioMaxPerOut + ")" + "\n";
         }
+
+        async void PopMoreInfoPage()
+        {
+            var moreInfoPage = new MoreInfo();
+            await Navigation.PushModalAsync(moreInfoPage);
+        }
+
+        void More_Clicked(System.Object sender, System.EventArgs e)
+        {
+            //The more button was clicked so pull up modal
+            PopMoreInfoPage();
+        }
     }
 }

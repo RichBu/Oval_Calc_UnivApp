@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc.Android/OvalCalc.Android.csproj": {}
+    "/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/OvalCalc.Android.csproj": {}
   },
   "projects": {
-    "/Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc.Android/OvalCalc.Android.csproj": {
+    "/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/OvalCalc.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc.Android/OvalCalc.Android.csproj",
+        "projectUniqueName": "/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/OvalCalc.Android.csproj",
         "projectName": "OvalCalc.Android",
-        "projectPath": "/Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc.Android/OvalCalc.Android.csproj",
+        "projectPath": "/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/OvalCalc.Android.csproj",
         "packagesPath": "/Users/BeyAppsMacServer/.nuget/packages/",
-        "outputPath": "/Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc.Android/obj/",
+        "outputPath": "/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,8 +26,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "/Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc/OvalCalc.csproj": {
-                "projectPath": "/Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc/OvalCalc.csproj"
+              "/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/OvalCalc.csproj": {
+                "projectPath": "/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/OvalCalc.csproj"
               }
             }
           }
@@ -48,14 +48,14 @@
         }
       }
     },
-    "/Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc/OvalCalc.csproj": {
+    "/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/OvalCalc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc/OvalCalc.csproj",
+        "projectUniqueName": "/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/OvalCalc.csproj",
         "projectName": "OvalCalc",
-        "projectPath": "/Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc/OvalCalc.csproj",
+        "projectPath": "/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/OvalCalc.csproj",
         "packagesPath": "/Users/BeyAppsMacServer/.nuget/packages/",
-        "outputPath": "/Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc/obj/",
+        "outputPath": "/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/BeyAppsMacServer/.config/NuGet/NuGet.Config"
