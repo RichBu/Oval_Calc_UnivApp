@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{157D293B-66F8-4132-B0C9-7357BE51D5DE}|Default">
+  <MonoDevelop.Ide.ItemProperties.OvalCalc.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.phone_4inch" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="OvalCalc/MainPage.xaml.cs" Line="15" Column="6" />
+      <File FileName="OvalCalc/App.xaml" />
+      <File FileName="OvalCalc/MainPage.xaml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OvalCalc" expanded="True">
+            <Node name="OvalCalc" expanded="True" selected="True">
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="OvalCalc.Android" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>OvalCalc.iOS/OvalCalc.iOS.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Android Only" Name="Android Only">
+      <Items>
+        <StartupItem ItemId="{157D293B-66F8-4132-B0C9-7357BE51D5DE}" ItemName="OvalCalc.Android" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+</Properties>

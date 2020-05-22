@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="OvalCalc.MainPage">
+    <StackLayout Orientation="Vertical">
+        <StackLayout Orientation="Vertical">
+            <Label Text="Oval Calculator" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+            <Label Text="by Rich Budek" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+
+        <BoxView x:Name="space_01"
+                 HeightRequest="15"/>
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Diam" VerticalOptions="Center" />
+            <Entry x:Name="RollDiam" Placeholder="cylinder (roll) diameter" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="X dir" VerticalOptions="Center" />
+            <Entry x:Name="CavityDiam" Placeholder="feature (cavity) diameter" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Depth" VerticalOptions="Center" />
+            <Entry x:Name="CavityDepth" Placeholder="depth of feature (cavity)" />
+        </StackLayout>
+
+        <BoxView x:Name="space_02"
+                 HeightRequest="5"/>
+
+        <Button Text="Calculate" Clicked="Calc_Clicked"/>
+
+        <BoxView x:Name="space_03"
+                 HeightRequest="5"/>
+
+        <!-- Calculation output-->
+        <StackLayout Orientation="Vertical">
+            <StackLayout x:Name="row_01" Orientation="Horizontal">
+                <Label x:Name="Result"/>
+            </StackLayout>
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>
