@@ -13,20 +13,25 @@
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
             <!-- title bar -->
-            <StackLayout Orientation="Vertical">
-                <StackLayout Orientation="Horizontal">
-                    <Button Text="Logo"/>
-                    <Label Text="Oval Calculator" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-                    <Button Text="Close" Clicked="Close_Clicked_1" />
-                </StackLayout>
-            </StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Button Text="Logo"/>
+                <Label WidthRequest="250" Grid.Column="1" Text="Oval Calculator" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+                <Button Grid.Column="2" Text="Close" Clicked="Close_Clicked" />
+            </Grid>
 
             <BoxView x:Name="space_01"
                      HeightRequest="15"/>
             <Label HorizontalOptions="Center">When machining circles on a cylinder, the circles are machined accurately at the surface of the cylinder. This is because the circumference at this surface is used for the calculation of the Y axis movements.  However, the deeper you machine the pocket, the more distored the circle is.  The circles become ovals.  This app calculates what adjustments you should do to your 3D model to make it appear as a circle.
+
                 The calculations show you the minimum and maximum that you should make your adjustments.  The output is in actual inches you should use and also the percentage if you are scaling your model.
             </Label>
-            <Button Text="Picture"/>
+            <Button Text="Picture" Clicked="MainPicture_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

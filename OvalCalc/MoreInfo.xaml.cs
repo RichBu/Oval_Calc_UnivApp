@@ -17,9 +17,21 @@ namespace OvalCalc
             await Navigation.PopModalAsync();
         }
 
-        void Close_Clicked_1(System.Object sender, System.EventArgs e)
+
+        async void PopMainPicturePage()
+        {
+            var pictureMainPage = new Picture_Main();
+            await Navigation.PushModalAsync(pictureMainPage);
+        }
+
+        void Close_Clicked(System.Object sender, System.EventArgs e)
         {
             ClosePage();
+        }
+
+        void MainPicture_Clicked(System.Object sender, System.EventArgs e)
+        {
+            PopMainPicturePage();
         }
     }
 }

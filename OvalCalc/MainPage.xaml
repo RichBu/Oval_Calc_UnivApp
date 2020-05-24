@@ -12,29 +12,35 @@
     </ContentPage.Padding >
     <StackLayout Orientation="Vertical">
         <!-- title bar -->
-        <StackLayout Orientation="Vertical">
-            <StackLayout Orientation="Horizontal">
-                <Button Text="Logo"/>
-                <Label Text="Oval Calculator" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-                <Button Text="More" Clicked="More_Clicked" />
-            </StackLayout>
-        </StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Button Text="Logo"/>
+            <Label WidthRequest="250" Grid.Column="1" Text="Oval Calculator" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+            <Button Grid.Column="2" Text="More" Clicked="More_Clicked" />
+        </Grid>
 
         <BoxView x:Name="space_01"
-                 HeightRequest="15"/>
+                 HeightRequest="5"/>
 
-        <StackLayout Orientation="Horizontal">
-            <Label Text="Diam" VerticalOptions="Center" />
-            <Entry x:Name="RollDiam" Placeholder="cylinder (roll) diameter" />
-        </StackLayout>
-        <StackLayout Orientation="Horizontal">
-            <Label Text="X dir" VerticalOptions="Center" />
-            <Entry x:Name="CavityDiam" Placeholder="feature (cavity) diameter" />
-        </StackLayout>
-        <StackLayout Orientation="Horizontal">
-            <Label Text="Depth" VerticalOptions="Center" />
-            <Entry x:Name="CavityDepth" Placeholder="depth of feature (cavity)" />
-        </StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" WidthRequest="50" Grid.Row="0"  Text="Diam" VerticalOptions="Center" />
+            <Entry Grid.Column="1" x:Name="RollDiam" Placeholder="cylinder (roll) diameter" />
+            <Label Grid.Column="0" WidthRequest="50" Grid.Row="1" Text="X dir" VerticalOptions="Center" />
+            <Entry Grid.Column="1" Grid.Row="1" x:Name="CavityDiam" Placeholder="feature (cavity) diameter" />
+            <Label Grid.Column="0" Grid.Row="2" Text="Depth" VerticalOptions="Center" />
+            <Entry Grid.Column="1" Grid.Row="2" x:Name="CavityDepth" Placeholder="depth of feature (cavity)" />
+        </Grid>
 
         <BoxView x:Name="space_02"
                  HeightRequest="5"/>

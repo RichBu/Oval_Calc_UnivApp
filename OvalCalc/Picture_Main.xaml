@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OvalCalc.Picture_Main">
-    <ContentPage.Content>
-    </ContentPage.Content>
+    <StackLayout Orientation="Vertical">
+     <BoxView x:Name="space_01"
+              HeightRequest="15"/>
+    <Label HorizontalOptions="Center">Picture of oval pocket
+            </Label>
+            <Button Text="Close" Clicked="Close_Clicked_1"/>
+    </StackLayout>
 </ContentPage>
