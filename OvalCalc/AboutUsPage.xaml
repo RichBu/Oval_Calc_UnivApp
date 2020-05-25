@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OvalCalc.AboutUsPage">
+    <ContentPage.Padding>
+    <!-- set platform - specific padding
+                     iOS needs an additional
+                     20px top padding to account for
+                     iPhone status bar -->    
+    <OnPlatform x:TypeArguments ="Thickness"
+                   iOS ="4, 20, 4, 0"
+                   Android ="4, 0, 4, 0"
+                   WinPhone ="4, 0, 4, 0" />
+    </ContentPage.Padding >
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <!-- title bar -->
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Button Text="Logo"/>
+                <Label WidthRequest="250" Grid.Column="1" Text="Oval Calculator" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+                <Button Grid.Column="2" Text="Close" Clicked="Close_Clicked" />
+            </Grid>
+
+            <BoxView x:Name="space_01"
+                     HeightRequest="15"/>
+            <Label HorizontalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="We are engineers and developers that can write native apps for iOS, Android, Windows, or MacOS.  In addition we have experience with full stack web development and can tie these apps to a backend. We are also exceptionally qualified to tie your physical world to the cloud with microprocessors and embedded software."/>
+                        <Span Text="&#x0a;&#x0a;If your desire is to have your app run on multiple platforms, we can develop in several cross platform methods including but not limited to Xamarin, React, React Native, and Flutter."/>
+                        <Span Text="&#x0a;&#x0a;"></Span>
+                        <Span Text="www.RedBlup.com" TextColor="Blue" TextDecorations="Underline">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="HyperLink_Click" />
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>                
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

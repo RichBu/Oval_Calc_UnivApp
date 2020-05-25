@@ -24,6 +24,13 @@ namespace OvalCalc
             await Navigation.PushModalAsync(pictureMainPage);
         }
 
+        async void PopAboutUsPage()
+        {
+            var AboutUsPage = new AboutUsPage();
+            await Navigation.PushModalAsync(AboutUsPage);
+        }
+
+
         void Close_Clicked(System.Object sender, System.EventArgs e)
         {
             ClosePage();
@@ -32,6 +39,11 @@ namespace OvalCalc
         void MainPicture_Clicked(System.Object sender, System.EventArgs e)
         {
             PopMainPicturePage();
+        }
+
+        void AboutUs_Clicked(System.Object sender, System.EventArgs e)
+        {
+            PopAboutUsPage();
         }
     }
 }

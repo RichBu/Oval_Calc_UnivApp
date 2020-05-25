@@ -1,25 +1,19 @@
 ﻿<Properties StartupConfiguration="{157D293B-66F8-4132-B0C9-7357BE51D5DE}|Default">
   <MonoDevelop.Ide.ItemProperties.OvalCalc.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.phone_4inch" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="OvalCalc/MoreInfo.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OvalCalc/MainPage.xaml">
     <Files>
-      <File FileName="OvalCalc/MainPage.xaml.cs" Line="59" Column="1" />
-      <File FileName="OvalCalc/App.xaml" />
-      <File FileName="OvalCalc/MainPage.xaml" />
-      <File FileName="OvalCalc/MoreInfo.xaml" />
-      <File FileName="OvalCalc/MoreInfo.xaml.cs" />
-      <File FileName="OvalCalc/Picture_Main.xaml" />
-      <File FileName="OvalCalc/Picture_Main.xaml.cs" />
+      <File FileName="OvalCalc/MoreInfo.xaml" Line="9" Column="34" />
+      <File FileName="OvalCalc/AboutUsPage.xaml" Line="9" Column="27" />
+      <File FileName="OvalCalc/AboutUsPage.xaml.cs" Line="38" Column="44" />
+      <File FileName="OvalCalc/MainPage.xaml" Line="11" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OvalCalc" expanded="True">
             <Node name="OvalCalc" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Resources" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
-              <Node name="MoreInfo.xaml" expanded="True" selected="True" />
-              <Node name="Picture_Main.xaml" expanded="True" />
+              <Node name="AboutUsPage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>
