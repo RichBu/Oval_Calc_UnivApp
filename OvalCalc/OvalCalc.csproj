@@ -36,6 +36,9 @@
     <None Remove="Resources\Graphics\Logo_01_small.png" />
     <None Remove="Resources\Graphics\Logo_01_full.png" />
     <None Remove="Resources\Graphics\Depth_01.png" />
+    <None Remove="Resources\Icons\Menu_01.png" />
+    <None Remove="Resources\Icons\Diameter_01.PNG" />
+    <None Remove="Resources\Icons\icon_depth.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\Graphics\Cyl_Diam_01.png" />
@@ -49,5 +52,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Graphics\Logo_01_full.png" />
     <EmbeddedResource Include="Resources\Graphics\Depth_01.png" />
+    <EmbeddedResource Include="Resources\Icons\Menu_01.png" />
+    <EmbeddedResource Include="Resources\Icons\icon_diameter.PNG" />
+    <EmbeddedResource Include="Resources\Icons\icon_depth.png" />
   </ItemGroup>
 </Project>

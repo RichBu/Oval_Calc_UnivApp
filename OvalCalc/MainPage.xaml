@@ -22,11 +22,24 @@
             <!--
             <Button ImageSource="Logo_01_small.png"/>
             -->
-            <Image Source="Logo_01_small.png" HeightRequest="50" WidthRequest="50"/>
-            <Label WidthRequest="250" Grid.Column="1" Text="Oval Calculator" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+            <Image Source="Logo_01_small.png" HeightRequest="40" WidthRequest="40" BackgroundColor="Aquamarine"  >
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="More_Clicked" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Label WidthRequest="350" Grid.Column="1" Text="Oval Calculator" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <!--
             <Button Grid.Column="2" Text="More" Clicked="More_Clicked" />
+            -->
+            <Image Grid.Column="2" Source="Menu_01.png" HeightRequest="40" WidthRequest="40" HorizontalOptions="End">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="More_Clicked" />
+                </Image.GestureRecognizers>
+            </Image>
         </Grid>
+        <!--
         <Image Source="Xdir_01.png"/>
+        -->
         <BoxView x:Name="space_01"
                  HeightRequest="5"/>
 
@@ -37,11 +50,20 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
-            <Label Grid.Column="0" WidthRequest="50" Grid.Row="0"  Text="Diam" VerticalOptions="Center" />
+            <!-- <Label Grid.Column="0" WidthRequest="50" Grid.Row="0"  Text="Diam" VerticalOptions="Center" />  -->
+            <Image Grid.Column="0" Grid.Row="0" WidthRequest="40" HeightRequest="40" Aspect="AspectFit" VerticalOptions="Center" BackgroundColor="Aquamarine" Source="icon_diameter.png">
+                 <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="More_Clicked" />
+                 </Image.GestureRecognizers>
+            </Image>
             <Entry Grid.Column="1" x:Name="RollDiam" Placeholder="cylinder (roll) diameter" />
-            <Label Grid.Column="0" WidthRequest="50" Grid.Row="1" Text="X dir" VerticalOptions="Center" />
+
+            <Image Grid.Column="0" Grid.Row="1" WidthRequest="40" HeightRequest="40" Aspect="AspectFit" VerticalOptions="Center" BackgroundColor="Aquamarine" Source="icon_hor.png"/>
+            <!-- <Label Grid.Column="0" WidthRequest="50" Grid.Row="1" Text="X dir" VerticalOptions="Center" />  -->
             <Entry Grid.Column="1" Grid.Row="1" x:Name="CavityDiam" Placeholder="feature (cavity) diameter" />
-            <Label Grid.Column="0" Grid.Row="2" Text="Depth" VerticalOptions="Center" />
+
+            <Image Grid.Column="0" Grid.Row="2" WidthRequest="40" HeightRequest="40" Aspect="AspectFit" VerticalOptions="Center" BackgroundColor="Aquamarine" Source="icon_depth.png"/>
+            <!-- <Label Grid.Column="0" Grid.Row="2" Text="Depth" VerticalOptions="Center" /> -->
             <Entry Grid.Column="1" Grid.Row="2" x:Name="CavityDepth" Placeholder="depth of feature (cavity)" />
         </Grid>
 
