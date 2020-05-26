@@ -19,11 +19,14 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
-            <Button Text="Logo"/>
+            <!--
+            <Button ImageSource="Logo_01_small.png"/>
+            -->
+            <Image Source="Logo_01_small.png" HeightRequest="50" WidthRequest="50"/>
             <Label WidthRequest="250" Grid.Column="1" Text="Oval Calculator" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
             <Button Grid.Column="2" Text="More" Clicked="More_Clicked" />
         </Grid>
-
+        <Image Source="Xdir_01.png"/>
         <BoxView x:Name="space_01"
                  HeightRequest="5"/>
 

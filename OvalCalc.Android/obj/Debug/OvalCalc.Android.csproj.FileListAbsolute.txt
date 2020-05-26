@@ -474,6 +474,7 @@
 /Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/bin/Debug/Resources/Graphics/Logo_01_small.png
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/bin/Debug/OvalCalc.Android.dll
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/bin/Debug/OvalCalc.Android.pdb
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/bin/Debug/com.redblup.ovalcalc.apk
@@ -539,6 +540,8 @@
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Debug/res/mipmap-xxhdpi/launcher_foreground.png
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Debug/res/mipmap-xxxhdpi/icon.png
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Debug/res/mipmap-xxxhdpi/launcher_foreground.png
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Debug/res/drawable/xdir_01.png
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Debug/res/drawable/logo_01_small.png
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Debug/uploadflags.txt
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Debug/resolvedassemblies.hash
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Debug/android/assets/FormsViewGroup.dll

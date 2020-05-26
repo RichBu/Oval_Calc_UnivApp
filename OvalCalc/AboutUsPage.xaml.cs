@@ -12,10 +12,7 @@ namespace OvalCalc
         //public ICommand TapCommand => new Command<string>(OpenBrowserClick);
         public AboutUsPage()
         {
-            Console.WriteLine("***********************");
-            Console.WriteLine("page opened");
-            InitializeComponent();
-     
+            InitializeComponent();     
         }
 
         async void ClosePage()
@@ -35,7 +32,7 @@ namespace OvalCalc
 
         void HyperLink_Click(System.Object sender, System.EventArgs e)
         {
-            string url = "http://www.Google.com";
+            string url = "http://www.RedBlup.com";
             Console.WriteLine("clicked the hyperlink");
             OpenBrowser(new Uri(url));
         }

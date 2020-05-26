@@ -18,7 +18,6 @@ namespace OvalCalc
             InitializeComponent();
         }
 
-
         void Calc_Clicked(System.Object sender, System.EventArgs e)
         {
             double rollDiam = double.Parse( RollDiam.Text );

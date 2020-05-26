@@ -21,8 +21,33 @@
     <Folder Include="Resources\Fonts\" />
     <Folder Include="Resources\Graphics\" />
     <Folder Include="Resources\Icons\" />
+    <Folder Include="Resources\Styles\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="MainPage %28copy%29.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Resources\Graphics\Cyl_Diam_01.png" />
+    <None Remove="Resources\Graphics\Oval_03.png" />
+    <None Remove="Resources\Graphics\OvalCalc_Logo.png" />
+    <None Remove="Resources\Graphics\TopView_01.png" />
+    <None Remove="Resources\Graphics\Xdir_01.png" />
+    <None Remove="Resources\Graphics\Ydir_01.png" />
+    <None Remove="Resources\Graphics\Logo_01_small.png" />
+    <None Remove="Resources\Graphics\Logo_01_full.png" />
+    <None Remove="Resources\Graphics\Depth_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Graphics\Cyl_Diam_01.png" />
+    <EmbeddedResource Include="Resources\Graphics\Oval_03.png" />
+    <EmbeddedResource Include="Resources\Graphics\OvalCalc_Logo.png" />
+    <EmbeddedResource Include="Resources\Graphics\TopView_01.png" />
+    <EmbeddedResource Include="Resources\Graphics\Xdir_01.png" />
+    <EmbeddedResource Include="Resources\Graphics\Ydir_01.png" />
+    <EmbeddedResource Include="Resources\Graphics\Logo_01_small.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Graphics\Logo_01_full.png" />
+    <EmbeddedResource Include="Resources\Graphics\Depth_01.png" />
   </ItemGroup>
 </Project>
