@@ -50,16 +50,64 @@ namespace OvalCalc
             Result.Text = Result.Text + "Y scale max = " + ratioMaxOut + " (" + ratioMaxPerOut + ")" + "\n";
         }
 
+        async void PopAboutUsPage()
+        {
+            var aboutUsPage = new AboutUsPage();
+            await Navigation.PushModalAsync(aboutUsPage);
+        }
+
         async void PopMoreInfoPage()
         {
             var moreInfoPage = new MoreInfo();
             await Navigation.PushModalAsync(moreInfoPage);
         }
 
+
+        async void PopPicturePage(int picNum)
+        {
+            if (picNum == 1)
+            {
+                var newPage = new Picture_CylDiam();    
+                await Navigation.PushModalAsync(newPage);
+            };
+            if (picNum == 2)
+            {
+                var newPage = new Picture_Xdir();     
+                await Navigation.PushModalAsync(newPage);
+            };
+            if (picNum == 3)
+            {
+                var newPage = new Picture_CavDepth();     
+                await Navigation.PushModalAsync(newPage);
+            };
+        }
+
+
         void More_Clicked(System.Object sender, System.EventArgs e)
         {
             //The more button was clicked so pull up modal
             PopMoreInfoPage();
+        }
+
+        void AboutUs_Clicked(System.Object sender, System.EventArgs e)
+        {
+            //The more button was clicked so pull up modal
+            PopAboutUsPage();
+        }
+
+        void CylDiam_Clicked(System.Object sender, System.EventArgs e)
+        {
+            PopPicturePage(1);
+        }
+
+        void Xdir_Clicked(System.Object sender, System.EventArgs e)
+        {
+            PopPicturePage(2);
+        }
+
+        void CavDepth_Clicked(System.Object sender, System.EventArgs e)
+        {
+            PopPicturePage(3);
         }
     }
 }

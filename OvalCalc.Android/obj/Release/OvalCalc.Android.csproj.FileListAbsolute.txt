@@ -402,6 +402,7 @@
 /Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc.Android/obj/Release/stamp/_GenerateJavaStubs.stamp
 /Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc.Android/obj/Release/stamp/_GeneratePackageManagerJava.stamp
 /Users/BeyAppsMacServer/Documents/Data/Proj-Personal/Android Test Progs/OvalCalc/OvalCalc.Android/obj/Release/stamp/_ResolveLibraryProjectImports.stamp
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/bin/Release/Resources/Graphics/Logo_01_small.png
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/bin/Release/OvalCalc.Android.dll
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/bin/Release/OvalCalc.Android.pdb
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/bin/Release/com.redblup.ovalcalc.apk
@@ -467,6 +468,14 @@
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Release/res/mipmap-xxhdpi/launcher_foreground.png
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Release/res/mipmap-xxxhdpi/icon.png
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Release/res/mipmap-xxxhdpi/launcher_foreground.png
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Release/res/drawable/xdir_01.png
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Release/res/drawable/logo_01_small.png
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Release/res/drawable/menu_01.png
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Release/res/drawable/cyl_diam_01.png
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Release/res/drawable/icon_diameter.png
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Release/res/drawable/icon_hor.png
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Release/res/drawable/icon_depth.png
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Release/res/drawable/depth_01.png
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Release/uploadflags.txt
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Release/resolvedassemblies.hash
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Release/link.flag

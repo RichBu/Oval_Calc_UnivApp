@@ -547,6 +547,7 @@
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Debug/res/drawable/icon_diameter.png
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Debug/res/drawable/icon_hor.png
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Debug/res/drawable/icon_depth.png
+/Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Debug/res/drawable/depth_01.png
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Debug/uploadflags.txt
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Debug/resolvedassemblies.hash
 /Users/BeyAppsMacServer/Documents/Data/Proj-GitHub Storage/Oval_Calc_UnivApp/OvalCalc.Android/obj/Debug/android/assets/FormsViewGroup.dll
