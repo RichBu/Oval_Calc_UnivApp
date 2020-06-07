@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{157D293B-66F8-4132-B0C9-7357BE51D5DE}|Default">
   <MonoDevelop.Ide.ItemProperties.OvalCalc.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.phone_4inch" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="OvalCalc/MainPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="OvalCalc/AboutUsPage.xaml" Line="40" Column="1" />
       <File FileName="OvalCalc/AboutUsPage.xaml.cs" />
       <File FileName="OvalCalc/MainPage.xaml" />
-      <File FileName="OvalCalc/MainPage.xaml.cs" Line="114" Column="1" />
+      <File FileName="OvalCalc/MainPage.xaml.cs" />
       <File FileName="OvalCalc/Picture_Xdir.xaml.cs" />
       <File FileName="OvalCalc/Picture_CavDepth.xaml" />
       <File FileName="OvalCalc/Picture_CavDepth.xaml.cs" />
@@ -22,14 +22,12 @@
               </Node>
               <Node name="AboutUsPage.xaml" expanded="True" />
               <Node name="App.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
-              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
               <Node name="Picture_CavDepth.xaml" expanded="True" />
               <Node name="Picture_CylDiam.xaml" expanded="True" />
               <Node name="Picture_Xdir.xaml" expanded="True" />
             </Node>
-            <Node name="OvalCalc.Android" expanded="True">
+            <Node name="OvalCalc.Android" expanded="True" selected="True">
               <Node name="Resources" expanded="True">
                 <Node name="drawable" expanded="True" />
               </Node>
@@ -43,7 +41,7 @@
   <DisabledProjects>
     <String>OvalCalc.iOS/OvalCalc.iOS.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <Debugger.DebugSourceFolders />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
@@ -55,4 +53,5 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
+  <AuthorInfo Name="RedBlup" Email="Dev@RedBlup.com" Copyright="2020 RedBlup.com" Company="RedBlup" Trademark="RedBlup" />
 </Properties>

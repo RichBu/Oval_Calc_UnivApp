@@ -6,7 +6,7 @@
     <authors>OvalCalc</authors>
     <owners>OvalCalc</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Package Description</description>
+    <description>This calculator calculate the ovality that is is present when you machine a pocket on a rotary cylinder.</description>
     <dependencies>
       <group targetFramework=".NETStandard2.0">
         <dependency id="Xamarin.Essentials" version="1.3.1" exclude="Build,Analyzers" />
